@@ -92,8 +92,8 @@ Simply grab the files located in `BCCircularMenu/BCCircularMenu` and put it in y
 # Parameters & Initializers
  Name    | Type    | description
  ---:   | :---:   | :---
-  size   | doble   | size of button
-  buttons| array   | buttonStorage
+  size   | doble   | size of each button
+  buttons| array   | where all buttons are stored
  distance| double  | distance from the touch point to the center of each button
  spreadTime|float  | how long it takes for button spearding animation
  triggerTime|float | the minimum time required for a long press event to perform a valid trigger
