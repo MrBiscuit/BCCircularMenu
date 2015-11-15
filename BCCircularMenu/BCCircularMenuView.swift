@@ -1,6 +1,6 @@
 //
-//  BCSwiftButton.swift
-//  BCSwiftButton
+//  BCCircularMenu.swift
+//  BCCircularMenu
 //
 //  Created by Sunshuaiqi on 11/13/15.
 //  Copyright © 2015 com.sunshuaiqi. All rights reserved.
@@ -26,17 +26,17 @@
 import UIKit
 
 
-@objc protocol BCSwiftButtonDelegate{
+@objc protocol BCCircularMenuDelegate{
     optional func activatedButton(number : Int)
 }
 
-class BCSwiftButton: UIView {
+class BCCircularMenu: UIView {
 
     // tools
-    var delegate:BCSwiftButtonDelegate!
+    var delegate:BCCircularMenuDelegate!
     var timer : NSTimer!
     var isValidTrigger = false
-    var BCSwiftButtonHasShown = false
+    var BCCircularMenuHasShown = false
     var touchLocation : CGPoint!
     var size : Double! // button's size
     var buttonsArray : [UIButton] // embarks all buttons required in this operation
@@ -55,7 +55,7 @@ class BCSwiftButton: UIView {
             buttonsArray[i-1].tag = i
             buttonDeactivationSequence += i
         }
-        print(buttonDeactivationSequence)
+        
        super.init(frame: frame)
         self.backgroundColor = UIColor ( red: 1.0, green: 0.856, blue: 0.7153, alpha: 1.0)
         
@@ -73,6 +73,20 @@ class BCSwiftButton: UIView {
         for touch in touches{
             touchLocation = touch.locationInView(touch.view)
         }
+        let offScreenDistance = CGFloat(distance + size / 2)
+        
+        if touchLocation.y >= UIScreen.mainScreen().bounds.size.height - offScreenDistance{
+            touchLocation.y -= offScreenDistance
+        }
+        if touchLocation.y <= offScreenDistance{
+            touchLocation.y += offScreenDistance
+        }
+        if touchLocation.x >= UIScreen.mainScreen().bounds.size.width - offScreenDistance{
+            touchLocation.x -= offScreenDistance
+        }
+        if touchLocation.x <= offScreenDistance{
+            touchLocation.x += offScreenDistance
+        }
         timer = NSTimer.scheduledTimerWithTimeInterval(0.6, target: self, selector: "timeDue", userInfo: nil, repeats: false)
     }
     
@@ -84,7 +98,7 @@ class BCSwiftButton: UIView {
             if translationInView.x >= 2 || translationInView.y >= 2{
                 timer.invalidate()
             }
-            if (BCSwiftButtonHasShown && isValidTrigger){
+            if (BCCircularMenuHasShown && isValidTrigger){
                 for button in buttonsArray{
                     let buttonRadius = button.frame.size.width / 2.0
                     if (sqrt(pow(button.center.x - currentLocation.x, 2) + pow(button.center.y - currentLocation.y, 2)) <= buttonRadius){
@@ -101,7 +115,7 @@ class BCSwiftButton: UIView {
     override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
         
         timer.invalidate()
-        if buttonActivationSequence > buttonDeactivationSequence + buttonsArray.count && BCSwiftButtonHasShown || buttonActivationSequence == 0{
+        if buttonActivationSequence > buttonDeactivationSequence + buttonsArray.count && BCCircularMenuHasShown || buttonActivationSequence == 0{
             buttonDismissAnimation()
         }else{
             DidFinishSelection()
@@ -124,7 +138,7 @@ class BCSwiftButton: UIView {
             button.alpha = 0.0
             self.addSubview(button)
         }
-        BCSwiftButtonHasShown = true
+        BCCircularMenuHasShown = true
         buttonSpreadOutAnimation()
     }
     
@@ -142,7 +156,7 @@ class BCSwiftButton: UIView {
     }
     
     func buttonDismissAnimation(){
-        BCSwiftButtonHasShown = false
+        BCCircularMenuHasShown = false
         if (buttonActivated == 0){
             for button in self.buttonsArray{
                 

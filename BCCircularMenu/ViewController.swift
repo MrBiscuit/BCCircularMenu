@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  BCSwiftButton
+//  BCCircularMenu
 //
 //  Created by Sunshuaiqi on 11/13/15.
 //  Copyright © 2015 com.sunshuaiqi. All rights reserved.
@@ -25,17 +25,19 @@
 
 import UIKit
 
-class ViewController: UIViewController,BCSwiftButtonDelegate {
+class ViewController: UIViewController,BCCircularMenuDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let button1 = UIButton(type: .System)
+        let button1 = UIButton(type: .Custom)
         button1.setTitle("b1", forState: .Normal)
+        button1.setImage(UIImage(named: "b1image"), forState: .Normal)
         button1.backgroundColor = UIColor.redColor()
         
-        let button2 = UIButton(type: .System)
+        let button2 = UIButton(type: .Custom)
         button2.setTitle("b2", forState: .Normal)
+        button1.setImage(UIImage(named: "b2image"), forState: .Normal)
         button2.backgroundColor = UIColor.yellowColor()
         
         let button3 = UIButton(type: .System)
@@ -54,10 +56,10 @@ class ViewController: UIViewController,BCSwiftButtonDelegate {
         button6.setTitle("b6", forState: .Normal)
         button6.backgroundColor = UIColor.brownColor()
         
-        let swiftButton = BCSwiftButton(buttons: [button1,button2,button3,button4,button5,button6], distanceFromCenter: 44.0, buttonSize: 44.0, frame: self.view.frame)
+        let CircularMenu = BCCircularMenu(buttons: [button1,button2,button3, button4, button5, button6], distanceFromCenter: 30.0, buttonSize: 40.0, frame: self.view.frame)
         
-        swiftButton.delegate = self
-        self.view.addSubview(swiftButton)
+        CircularMenu.delegate = self
+        self.view.addSubview(CircularMenu)
     }
 
     override func didReceiveMemoryWarning() {

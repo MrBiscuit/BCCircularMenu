@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C298E9611BF7835D00962274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C298E9571BF7835D00962274 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
-		C298E9621BF7835D00962274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C298E9581BF7835D00962274 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
-		C298E9631BF7835D00962274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C298E95A1BF7835D00962274 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		C298E9641BF7835D00962274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C298E95C1BF7835D00962274 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		C298E9651BF7835D00962274 /* BCSwiftButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C298E95E1BF7835D00962274 /* BCSwiftButton.swift */; settings = {ASSET_TAGS = (); }; };
-		C298E9661BF7835D00962274 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C298E95F1BF7835D00962274 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-		C298E9671BF7835D00962274 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C298E9601BF7835D00962274 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C285E0871BF826A700E22CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C285E0831BF826A700E22CB4 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		C285E0881BF826A700E22CB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C285E0851BF826A700E22CB4 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		C285E08E1BF826B300E22CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C285E0891BF826B300E22CB4 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		C285E08F1BF826B300E22CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C285E08A1BF826B300E22CB4 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		C285E0901BF826B300E22CB4 /* BCCircularMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C285E08B1BF826B300E22CB4 /* BCCircularMenuView.swift */; settings = {ASSET_TAGS = (); }; };
+		C285E0911BF826B300E22CB4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C285E08C1BF826B300E22CB4 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		C285E0921BF826B300E22CB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C285E08D1BF826B300E22CB4 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C21845541BF61B6200F7ABED /* BCSwiftButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCSwiftButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C298E9571BF7835D00962274 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SwiftButton/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
-		C298E9581BF7835D00962274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SwiftButton/Assets.xcassets; sourceTree = SOURCE_ROOT; };
-		C298E95B1BF7835D00962274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C298E95D1BF7835D00962274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
-		C298E95E1BF7835D00962274 /* BCSwiftButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BCSwiftButton.swift; path = SwiftButton/BCSwiftButton.swift; sourceTree = SOURCE_ROOT; };
-		C298E95F1BF7835D00962274 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SwiftButton/Info.plist; sourceTree = SOURCE_ROOT; };
-		C298E9601BF7835D00962274 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = SwiftButton/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		C21845541BF61B6200F7ABED /* BCCircularMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCCircularMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C285E0841BF826A700E22CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = BCCircularMenu/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		C285E0861BF826A700E22CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = BCCircularMenu/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		C285E0891BF826B300E22CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = BCCircularMenu/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		C285E08A1BF826B300E22CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BCCircularMenu/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		C285E08B1BF826B300E22CB4 /* BCCircularMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BCCircularMenuView.swift; path = BCCircularMenu/BCCircularMenuView.swift; sourceTree = SOURCE_ROOT; };
+		C285E08C1BF826B300E22CB4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BCCircularMenu/Info.plist; sourceTree = SOURCE_ROOT; };
+		C285E08D1BF826B300E22CB4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = BCCircularMenu/ViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		C218454B1BF61B6200F7ABED = {
 			isa = PBXGroup;
 			children = (
-				C21845561BF61B6200F7ABED /* BCSwiftButton */,
+				C21845561BF61B6200F7ABED /* BCCircularMenu */,
 				C21845551BF61B6200F7ABED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,32 +49,32 @@
 		C21845551BF61B6200F7ABED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C21845541BF61B6200F7ABED /* BCSwiftButtonDemo.app */,
+				C21845541BF61B6200F7ABED /* BCCircularMenu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C21845561BF61B6200F7ABED /* BCSwiftButton */ = {
+		C21845561BF61B6200F7ABED /* BCCircularMenu */ = {
 			isa = PBXGroup;
 			children = (
-				C298E95E1BF7835D00962274 /* BCSwiftButton.swift */,
-				C298E9601BF7835D00962274 /* ViewController.swift */,
-				C298E9571BF7835D00962274 /* AppDelegate.swift */,
-				C298E9581BF7835D00962274 /* Assets.xcassets */,
-				C298E95A1BF7835D00962274 /* LaunchScreen.storyboard */,
-				C298E95C1BF7835D00962274 /* Main.storyboard */,
-				C298E95F1BF7835D00962274 /* Info.plist */,
+				C285E0891BF826B300E22CB4 /* AppDelegate.swift */,
+				C285E08D1BF826B300E22CB4 /* ViewController.swift */,
+				C285E08B1BF826B300E22CB4 /* BCCircularMenuView.swift */,
+				C285E08A1BF826B300E22CB4 /* Assets.xcassets */,
+				C285E0831BF826A700E22CB4 /* LaunchScreen.storyboard */,
+				C285E0851BF826A700E22CB4 /* Main.storyboard */,
+				C285E08C1BF826B300E22CB4 /* Info.plist */,
 			);
-			name = BCSwiftButton;
+			name = BCCircularMenu;
 			path = AssistantButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C21845531BF61B6200F7ABED /* BCSwiftButtonDemo */ = {
+		C21845531BF61B6200F7ABED /* BCCircularMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C21845661BF61B6200F7ABED /* Build configuration list for PBXNativeTarget "BCSwiftButtonDemo" */;
+			buildConfigurationList = C21845661BF61B6200F7ABED /* Build configuration list for PBXNativeTarget "BCCircularMenu" */;
 			buildPhases = (
 				C21845501BF61B6200F7ABED /* Sources */,
 				C21845511BF61B6200F7ABED /* Frameworks */,
@@ -84,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = BCSwiftButtonDemo;
+			name = BCCircularMenu;
 			productName = AssistantButton;
-			productReference = C21845541BF61B6200F7ABED /* BCSwiftButtonDemo.app */;
+			productReference = C21845541BF61B6200F7ABED /* BCCircularMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C218454F1BF61B6200F7ABED /* Build configuration list for PBXProject "BCSwiftButtonDemo" */;
+			buildConfigurationList = C218454F1BF61B6200F7ABED /* Build configuration list for PBXProject "BCCircularMenu" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C21845531BF61B6200F7ABED /* BCSwiftButtonDemo */,
+				C21845531BF61B6200F7ABED /* BCCircularMenu */,
 			);
 		};
 /* End PBXProject section */
@@ -127,10 +127,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C298E9641BF7835D00962274 /* Main.storyboard in Resources */,
-				C298E9661BF7835D00962274 /* Info.plist in Resources */,
-				C298E9631BF7835D00962274 /* LaunchScreen.storyboard in Resources */,
-				C298E9621BF7835D00962274 /* Assets.xcassets in Resources */,
+				C285E0911BF826B300E22CB4 /* Info.plist in Resources */,
+				C285E0871BF826A700E22CB4 /* LaunchScreen.storyboard in Resources */,
+				C285E08F1BF826B300E22CB4 /* Assets.xcassets in Resources */,
+				C285E0881BF826A700E22CB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,31 +141,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C298E9671BF7835D00962274 /* ViewController.swift in Sources */,
-				C298E9651BF7835D00962274 /* BCSwiftButton.swift in Sources */,
-				C298E9611BF7835D00962274 /* AppDelegate.swift in Sources */,
+				C285E0921BF826B300E22CB4 /* ViewController.swift in Sources */,
+				C285E0901BF826B300E22CB4 /* BCCircularMenuView.swift in Sources */,
+				C285E08E1BF826B300E22CB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C298E95A1BF7835D00962274 /* LaunchScreen.storyboard */ = {
+		C285E0831BF826A700E22CB4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C298E95B1BF7835D00962274 /* Base */,
+				C285E0841BF826A700E22CB4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ../SwiftButton/Base.lproj;
 			sourceTree = "<group>";
 		};
-		C298E95C1BF7835D00962274 /* Main.storyboard */ = {
+		C285E0851BF826A700E22CB4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C298E95D1BF7835D00962274 /* Base */,
+				C285E0861BF826A700E22CB4 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ../SwiftButton/Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -259,10 +257,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = SwiftButton/Info.plist;
+				INFOPLIST_FILE = BCCircularMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sunshuaiqi.BCSwiftButton;
-				PRODUCT_NAME = BCSwiftButtonDemo;
+				PRODUCT_NAME = BCCircularMenu;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -272,17 +270,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = SwiftButton/Info.plist;
+				INFOPLIST_FILE = BCCircularMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sunshuaiqi.BCSwiftButton;
-				PRODUCT_NAME = BCSwiftButtonDemo;
+				PRODUCT_NAME = BCCircularMenu;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C218454F1BF61B6200F7ABED /* Build configuration list for PBXProject "BCSwiftButtonDemo" */ = {
+		C218454F1BF61B6200F7ABED /* Build configuration list for PBXProject "BCCircularMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C21845641BF61B6200F7ABED /* Debug */,
@@ -291,7 +289,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C21845661BF61B6200F7ABED /* Build configuration list for PBXNativeTarget "BCSwiftButtonDemo" */ = {
+		C21845661BF61B6200F7ABED /* Build configuration list for PBXNativeTarget "BCCircularMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C21845671BF61B6200F7ABED /* Debug */,

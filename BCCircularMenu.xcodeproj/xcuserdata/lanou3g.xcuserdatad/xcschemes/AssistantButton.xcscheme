@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C21845531BF61B6200F7ABED"
-               BuildableName = "BCSwiftButtonDemo.app"
-               BlueprintName = "BCSwiftButtonDemo"
-               ReferencedContainer = "container:BCSwiftButtonDemo.xcodeproj">
+               BuildableName = "BCCircularMenu.app"
+               BlueprintName = "BCCircularMenu"
+               ReferencedContainer = "container:BCCircularMenu.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C21845531BF61B6200F7ABED"
-            BuildableName = "BCSwiftButtonDemo.app"
-            BlueprintName = "BCSwiftButtonDemo"
-            ReferencedContainer = "container:BCSwiftButtonDemo.xcodeproj">
+            BuildableName = "BCCircularMenu.app"
+            BlueprintName = "BCCircularMenu"
+            ReferencedContainer = "container:BCCircularMenu.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C21845531BF61B6200F7ABED"
-            BuildableName = "BCSwiftButtonDemo.app"
-            BlueprintName = "BCSwiftButtonDemo"
-            ReferencedContainer = "container:BCSwiftButtonDemo.xcodeproj">
+            BuildableName = "BCCircularMenu.app"
+            BlueprintName = "BCCircularMenu"
+            ReferencedContainer = "container:BCCircularMenu.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C21845531BF61B6200F7ABED"
-            BuildableName = "BCSwiftButtonDemo.app"
-            BlueprintName = "BCSwiftButtonDemo"
-            ReferencedContainer = "container:BCSwiftButtonDemo.xcodeproj">
+            BuildableName = "BCCircularMenu.app"
+            BlueprintName = "BCCircularMenu"
+            ReferencedContainer = "container:BCCircularMenu.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

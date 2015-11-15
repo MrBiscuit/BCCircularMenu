@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  BCSwiftButton
+//  BCCircularMenu
 //
 //  Created by Sunshuaiqi on 11/13/15.
 //  Copyright © 2015 com.sunshuaiqi. All rights reserved.
