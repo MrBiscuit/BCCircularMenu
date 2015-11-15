@@ -1,6 +1,6 @@
 # BCCircularMenu
 ---
-This is a simple, adaptive circular menu with toggling animation for cocoa touch. You can easily arrange them however you want.
+This is a simple, adaptive circular menu that spreads out on touch and activates upon release with toggling animation for cocoa touch. You can easily arrange them however you want.
 
 ### Features
 ---
