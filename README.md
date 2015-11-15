@@ -14,7 +14,7 @@ Simply grab the files located in `BCCircularMenu/BCCircularMenu` and put it in y
 
 ### Usage
 ---
-+ 1. In your ViewController, inherit from `BCCircularMenuDelegate`, make sure to import 'projectName-swift.h' beforehand if your using objective-C
++ 1. In your ViewController, inherit from `BCCircularMenuDelegate`, make sure to import `projectName-swift.h` beforehand if your using objective-C
 
 
 >Swift
