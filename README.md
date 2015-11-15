@@ -91,7 +91,7 @@ Simply grab the files located in `BCCircularMenu/BCCircularMenu` and put it in y
 
 # Parameters & Initializers
  Name    | Type    | description
- :---:   | :---:   | :---:
+ ---:   | :---:   | :---
   size   | doble   | size of button
   buttons| array   | buttonStorage
  distance| double  | distance from the touch point to the center of each button
