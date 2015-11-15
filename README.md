@@ -1,6 +1,6 @@
 # BCCircularMenu
 ---
-![](http://i12.tietuku.com/81464d560d709d7f.png =100)
+![](http://i12.tietuku.com/81464d560d709d7f.png =100x100)
 
 This is a simple, adaptive circular menu that spreads out on touch and activates upon release with toggling animation for cocoa touch. You can easily arrange them however you want.
 
