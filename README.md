@@ -88,3 +88,13 @@ Simply grab the files located in `BCCircularMenu/BCCircularMenu` and put it in y
        NSLog(@"button number:%ld is activated",(long)number);
    }
 ```
+
+# Parameters & Initializers
+ Name    | Type    | description
+ :---:   | :---:   | :---:
+  size   | doble   | size of button
+  buttons| array   | buttonStorage
+ distance| double  | distance from the touch point to the center of each button
+ spreadTime|float  | how long it takes for button spearding animation
+ triggerTime|float | the minimum time required for a long press event to perform a valid trigger
+ invalidTriggerDistance| CGFloat | the minimum length required to invalidate a trigger
