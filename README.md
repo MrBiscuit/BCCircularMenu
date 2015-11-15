@@ -57,7 +57,7 @@ Simply grab the files located in `BCCircularMenu/BCCircularMenu` and put it in y
 >Swift
 ```swift
     let circularMenu = BCCircularMenu(buttons: [button1,button2], 
-    distanceFromCenter: 20.0, buttonSize: 44.0, frame: self.view.frame)
+    distanceFromCenter: 25.0, buttonSize: 34.0, frame: self.view.frame)
     circularMenu.delegate = self
     self.view.addSubview(circularMenu)
 ```
