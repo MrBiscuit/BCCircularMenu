@@ -31,32 +31,21 @@ class ViewController: UIViewController,BCCircularMenuDelegate {
         super.viewDidLoad()
         
         let button1 = UIButton(type: .Custom)
-        button1.setTitle("b1", forState: .Normal)
-        button1.setImage(UIImage(named: "b1image"), forState: .Normal)
-        button1.backgroundColor = UIColor.redColor()
+        button1.setImage(UIImage(named: "check"), forState: .Normal)
         
         let button2 = UIButton(type: .Custom)
-        button2.setTitle("b2", forState: .Normal)
-        button1.setImage(UIImage(named: "b2image"), forState: .Normal)
-        button2.backgroundColor = UIColor.yellowColor()
+        button2.setImage(UIImage(named: "x"), forState: .Normal)
         
-        let button3 = UIButton(type: .System)
-        button3.setTitle("b3", forState: .Normal)
-        button3.backgroundColor = UIColor.blueColor()
+        let button3 = UIButton(type: .Custom)
+        button3.setImage(UIImage(named: "sms"), forState: .Normal)
         
-        let button4 = UIButton(type: .System)
-        button4.setTitle("b4", forState: .Normal)
-        button4.backgroundColor = UIColor.greenColor()
+        let button4 = UIButton(type: .Custom)
+        button4.setImage(UIImage(named: "@"), forState: .Normal)
         
-        let button5 = UIButton(type: .System)
-        button5.setTitle("b5", forState: .Normal)
-        button5.backgroundColor = UIColor.cyanColor()
+        let button5 = UIButton(type: .Custom)
+        button5.setImage(UIImage(named: "back"), forState: .Normal)
         
-        let button6 = UIButton(type: .System)
-        button6.setTitle("b6", forState: .Normal)
-        button6.backgroundColor = UIColor.brownColor()
-        
-        let CircularMenu = BCCircularMenu(buttons: [button1,button2,button3, button4, button5, button6], distanceFromCenter: 30.0, buttonSize: 40.0, frame: self.view.frame)
+        let CircularMenu = BCCircularMenu(buttons: [button1,button2,button3, button4, button5], distanceFromCenter: 90.0, buttonSize: 90.0, frame: self.view.frame)
         
         CircularMenu.delegate = self
         self.view.addSubview(CircularMenu)
