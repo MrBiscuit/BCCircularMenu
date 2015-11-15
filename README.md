@@ -13,7 +13,7 @@ This is a simple, adaptive circular menu that spreads out on touch and activates
 
 ### Installation
 ---
-Simply grab the files located in `BCCircularMenu/BCCircularMenu` and put it in your project.
+Simply grab the file `BCCircularMenu/BCCircularMenu/BCCircularMenuView` and put it in your project.
 
 ### Usage
 ---
