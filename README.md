@@ -1,5 +1,4 @@
 # BCCircularMenu
----
 
 <img src="http://i12.tietuku.com/81464d560d709d7f.png" width = "300" height = "300" alt="BCCircularMenu" align = center />
 
