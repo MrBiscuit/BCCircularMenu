@@ -118,6 +118,7 @@ class BCCircularMenu: UIView {
         
         timer.invalidate()
         if buttonActivationSequence > buttonDeactivationSequence + buttons.count && BCCircularMenuHasShown || buttonActivationSequence == 0{
+            buttonActivated = 0
             buttonDismissAnimation()
         }else{
             DidFinishSelection()
